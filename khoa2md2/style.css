@@ -1,0 +1,86 @@
+/* Nội dung chính */
+.content {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 18px;
+}
+
+/* Header */
+header {
+  background-color: #f1c40f;
+  padding: 10px;
+}
+
+/* Tiêu đề h1 */
+h1 {
+  text-align: center;
+  font-family: 'Arial Black', sans-serif;
+  color: #2c3e50;
+}
+
+/* Navigation */
+nav {
+  background-color: #95a5a6;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Main */
+main {
+  background-color: #ecf0f1;
+  font-size: 16px;
+  padding: 15px;
+}
+
+/* Footer */
+footer {
+  background-color: #34495e;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Đoạn văn */
+p {
+  line-height: 1.6;
+}
+nav {
+  display: inline-block;
+  width: 80%;
+}
+
+nav img {
+  width: 10%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
